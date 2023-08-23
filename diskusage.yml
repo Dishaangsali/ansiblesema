@@ -3,7 +3,7 @@
   hosts: all
   tasks:
         - name: disk space from command module
-          command: du -h
+          command: du -h /home/hcligt
           register: space
         - debug:
                 var: space
