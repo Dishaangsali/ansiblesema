@@ -3,7 +3,7 @@
   hosts: all
   tasks:
         - name: disk space from command module
-          command: df -u
+          command: du -h
           register: space
         - debug:
                 var: space
