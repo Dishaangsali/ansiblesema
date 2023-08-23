@@ -4,6 +4,6 @@
   tasks:
         - name: creating an empty file
           file:
-                path: /home/mydir/file1.txt
+                path: /home/hcligt/mydir/file1.txt
                 state: touch
           become: yes
